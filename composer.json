@@ -1,0 +1,32 @@
+{
+    "name": "velocit/framework",
+    "description": "A Simple PHP Web Framework",
+    "type": "project",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/eddyenet/Velocit/issues",
+        "source": "https://github.com/eddyenet/Velocit"
+    },
+    "authors": [
+        {
+            "name": "Edy Purwanto",
+            "email": "eddyee99@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": "^8.2",
+        "ext-mbstring": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Velocit\\": "src/Velocit"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Velocit\\Tests\\": "tests/"
+        }
+    }
+}
